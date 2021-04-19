@@ -2,14 +2,18 @@
 .accordion {
     width: 730px;
     background: var(--white);
+    margin: auto;
+}
+
+.accordion__item {
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
     padding: 24px 32px;
 }
 
-.accordion + .accordion {
-    margin-top: 5px;
+.accordion__item + .accordion__item {
+    margin-top: 8px;
 }
 
 .accordion__summary {
