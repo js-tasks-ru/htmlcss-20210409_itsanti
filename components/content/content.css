@@ -1,0 +1,7 @@
+.content {
+    --background-color: #F9FAFC;
+    height: 1036px;
+    background-color: var(--background-color);
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+}
